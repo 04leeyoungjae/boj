@@ -8,7 +8,6 @@ def sol(n):
 
 for i in range(int(input())):
     d={0:[1,0], 1:[0,1]}
-    cnt=[0,0]
     n=int(input())
     sol(n)
     print(d[n][0],d[n][1])
