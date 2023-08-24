@@ -1,0 +1,1 @@
+from math import comb; lst=list(map(int,input().split(" "))); print(comb(lst[0],lst[1])%10007)
